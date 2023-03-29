@@ -1,0 +1,8 @@
+# Define the DNA sequence
+dna_seq = "ATCGATCGATTAGGCTAGCTAGCTAGCGATCG"
+
+# Transcribe the DNA sequence into RNA
+rna_seq = dna_seq.replace('T', 'U')
+
+# Print the RNA sequence
+print("RNA sequence:", rna_seq)
